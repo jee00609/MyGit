@@ -10,9 +10,15 @@ public class A {
 		int x = 5;
 		int y = 3;
 		
+
 		B plus = new B();
 		result1 = plus.plus(x, y);
 		System.out.println(result1);
+
+		C minus = new C();
+		result2 = minus.minus(x, y);
+		System.out.println(result2);
+
 	}
 
 }
